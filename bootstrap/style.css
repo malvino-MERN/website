@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #450466);
+    padding: 0% !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 15px;
+}
+.navbar-nav li{
+    padding: 0px 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 13px;
+    transition: 1s ease-in-out;
+}
+.navbar-toggler{
+    color: #fff !important ;    
+}
+.navbar-nav li i{
+    font-size: 17px;
+    width: 22px;
+}
+.navbar-nav li a:hover{
+    color: rgb(160, 160, 160) !important;
+}
+
+/*----------------- banner section -------------------*/
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #450466);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top:100px ;
+}
+.paly-btn{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+}
+
+/* ------------------coures----------------- */
+#coures
+{
+    padding: 80px 0;
+}
+.service-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.coures{
+    padding: 15px;
+}
+.coure h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before{
+    content: "";
+    background-color: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left:auto ;
+    margin-right: auto;
+    border-radius: 5px;
+    display: block;
+    transform: translateY(63px);
+
+}
+.title::after{
+    content: "";
+    background-color: #7b1798;
+    height:10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    display: block;
+    transform: translateY(7px);
+}
+
+#coures .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    
+    border-radius: 20px;
+    margin-top: 35px;
+    background-image: linear-gradient(to right, #a517ba, #450466);
+}
+
+
+/*-------------------------- About-us -----------------------------*/
+#about-us{
+    background: #eff1f3;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-left: 50px;
+}
+#about-us ul li{
+margin: 20px 0px;
+}
+#about-us ul{
+    margin-left: 40px;
+}
+
+/* -----------------------------------Testimonials-------------------------- */
+#Testimonials{
+    margin: 100px 0;
+}
+.Testimonials{
+    border-left: 4px solid #7b1789;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* -------------------------------------social-media---------------------------- */
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* --------------------------------------footer----------------------------- */
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #450466);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+}
