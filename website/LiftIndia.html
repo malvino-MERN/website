@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFT INDIA</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="eduford_img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Festive&family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,400&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <h2>LIFT INDIA</h2> 
+            <!-- <a href=""><img src="eduford_img\logo.png" alt="logo"></a> -->
+            <div class="nav-link">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+            </div>
+        </nav>
+<div class="text-box">
+    <h1 class="slide-left">THE KEY TO SUCCESS IS TO FOCUSE ON GOALS,<BR> NOT OBSTACLES</h1>
+    <p class="slide-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quis harum enim, porro debitis alias,<br> impedit soluta eaque iste quia dolor voluptas veniam nisi suscipit id, fuga nemo ullam corrupti!
+    </p> 
+    <a href="#"class="hero-btn ">Visit Us To Know More</a>
+</div>  
+    </section>
+
+    <!-- ---coures---- -->
+
+<section class="coures">
+    <h1>Coures We Offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Embedded system</h3>   
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, voluptatem at consequatur eveniet ea illum debitis ipsa repellendus aliquam quasi doloribus, hic natus autem omnis explicabo. Magnam ullam omnis totam!</p>    
+        </div>
+        <div class="course-col">
+            <h3>PLC</h3>   
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, voluptatem at consequatur eveniet ea illum debitis ipsa repellendus aliquam quasi doloribus, hic natus autem omnis explicabo. Magnam ullam omnis totam!</p>    
+        </div>
+        <div class="course-col">
+            <h3>PCB</h3>   
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, voluptatem at consequatur eveniet ea illum debitis ipsa repellendus aliquam quasi doloribus, hic natus autem omnis explicabo. Magnam ullam omnis totam!</p>    
+        </div>       
+</section>
+<section>
+    <div class="container">
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="eduford_img/basketball.png" alt=""></div>
+      <div class="swiper-slide"><img src="eduford_img/cafeteria.png" alt=""></div>
+      <div class="swiper-slide"><img src="eduford_img/library.png" alt=""></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+    </div>
+</section>
+<section class="topic">
+        <h1>Our Learning Library </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa officia voluptatum sunt culpa iste vel est? Quia ducimus aliquam libero possimus dolorem autem dolores sequi? Minima dolor explicabo nostrum error?</p>
+        <div class="row">
+            <div class="topic-col">
+                <img class="emd" src="eduford_img/MSc-Embedded-Systems.jpg" alt="Embedded-logo">
+            <div class="layer">
+                    <h3>Embedded System</h3>
+            </div>
+            </div>
+            <div class="topic-col">
+                <img class="pcb" src="eduford_img/pcb.jpg" alt="Embedded-logo">
+            <div class="layer">
+                    <h3>PCB</h3>
+            </div>
+            </div> 
+            <div class="topic-col">
+                <img class="plc" src="eduford_img/PLC-and-SCADA.jpg" alt="Embedded-logo">
+            <div class="layer">
+                    <h3>PLC</h3>
+            </div>
+            </div> 
+        </div>
+        <div>
+            <a href=""class="coures-btn">Visit To More Coures</a>  
+        </div>
+</section>
+
+<section class="facilites">
+    <h1>Our facilites</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tempora cumque reiciendis aliquid a adipisci aliquam, velit, doloribus inventore veritatis eaque eius veniam minima placeat quidem maiores! Impedit, rem beatae.</p>
+
+    <div class="row">
+        <div class="facilites-col">
+            <img src="" alt="">
+        </div>
+    </div>
+</section>
+<!-- ---js script--- -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+   autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+   },     
+  // Optional parameters
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+</body>
+</html>
